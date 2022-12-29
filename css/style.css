@@ -98,3 +98,80 @@ header {
     color: var(--color-white);
 }
 
+.about {
+    background-color: #191919;
+    padding-left: 90px;
+}
+
+.about h1 {
+    color: var(--color-light-blue);
+    font-size: 60px;
+    margin-bottom: 17px;
+}
+
+.about p {
+    color: var(--color-white);
+    margin-bottom: 35px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.images .image-one {
+    width: 35em;
+    height: 370px;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.images .image-one:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.images .image-two {
+    width: 35em;
+    height: 370px;
+    margin-right: 35px;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.images .image-two:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.works {
+    background-color: #191919;
+    padding-left: 90px;
+}
+
+.works h1 {
+    color: var(--color-light-blue);
+    font-size: 60px;
+}
+
