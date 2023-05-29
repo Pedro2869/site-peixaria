@@ -281,6 +281,11 @@ footer .rodape form div.title h2 {
     font-size: 1.9rem;
 }
 
+footer form {
+    margin: 50px;
+    padding: 45px;
+}
+
 footer form .forms {
     display: flex;
     flex-direction: column;
@@ -288,5 +293,10 @@ footer form .forms {
 
 .forms {
     background-color: #718BE7;
+}
+
+form .forms input {
+    border: none;
+    border-radius: 20px;
 }
 
