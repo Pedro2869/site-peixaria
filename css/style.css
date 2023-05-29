@@ -295,8 +295,19 @@ footer form .forms {
     background-color: #718BE7;
 }
 
+form .forms h3 {
+    text-align: center;
+    color: var(--color-white);
+}
+
 form .forms input {
     border: none;
     border-radius: 20px;
+    width: 20rem;
 }
 
+form .forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
