@@ -32,7 +32,7 @@ Um site desenvolvido para simular um site de peixaria.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/6hFHXfWQT5iFlJB57zacRK/DevLinks-(Community)?node-id=0%3A1&t=OSsTI30EdUH75fcy-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/kvEjR6nGwgGobiMztsGogq/Site-de-Peixaria?t=ELlM8RPAv0rf4YPD-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
