@@ -48,11 +48,11 @@ header {
 .menu li a {
     text-decoration: none;
     color: var(--color-white);
+    transition: all 1s ease-in-out;
 }
 
 .menu li a:hover {
     color: var(--color-light-blue);
-    transition: all 1s ease;
 }
 
 .cabecalho {
@@ -90,11 +90,11 @@ header {
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    transition: all .8s ease-in-out;
 }
 
 .text button:hover {
     background-color: #00947E;
-    transition: all 1s ease;
     color: var(--color-white);
 }
 
