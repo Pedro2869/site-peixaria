@@ -8,7 +8,6 @@
     <title>Peixes</title>
 </head>
 <body>
-    
     <header>
         <div class="cabecalho">
             <h2 class="title">Fis<span>hes</span></h2>
@@ -90,23 +89,30 @@
                   <h2>Preencha os dados abaixo:</h2>
                 </div>
                 <div class="forms">
-                  <div class="form">
+                  <div id="form">
                     <h3>Nome</h3>
-                    <input type="text" name="name" id="nameUser" placeholder="Digite seu nome">
+                    <input type="text" name="name" id="nameUser" placeholder="Digite seu nome" required>
                   </div>
-                  <div class="form">
+                  <div id="form">
                     <h3>Idade</h3>
-                    <input type="number" name="age" id="ageUser" placeholder="Digite sua idade">
+                    <input type="number" name="age" id="ageUser" placeholder="Digite sua idade" required>
                   </div>
-                  <div class="form">
-                    <h3>E-mail</h3>
-                    <input type="email" name="email" id="emailUser" placeholder="Digite seu E-mail">
+                  <div id="form">
+                    <h3>Celular</h3>
+                    <input type="number" name="number" id="numberUser" placeholder="Digite seu número de celular" required>
+                  </div>
+                  <div id="form">
+                    <h3>Pedido</h3>
+                    <input type="text" name="text" id="pedidoUser" placeholder="Digite seu Pedido" required>
+                  </div>
+                  <div id="form">
+                    <h3>Local da Entrega</h3>
+                    <input type="text" name="entrega" id="entregaUser" placeholder="Digite o seu Endereço" required>
                   </div>
                 </div>
             </form>
         </div>
     </footer>
-
     <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -54,7 +55,7 @@ header {
 .menu li a {
     text-decoration: none;
     color: var(--color-white);
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .menu li a:hover {
@@ -96,7 +97,7 @@ header {
     border-radius: 20px;
     border: none;
     cursor: pointer;
-    transition: all .8s ease-in-out;
+    transition: all .6s ease-in-out;
 }
 
 .text button:hover {
@@ -222,7 +223,7 @@ header {
 .card-info h3 {
     font-family: var(--font-secundary);
     font-weight: bolder;
-    color: #ff4081;
+    color: #19FFDD;
     margin-bottom: 1.5rem;
 }
 
@@ -235,15 +236,15 @@ header {
 }
 
 .btn {
-    background: #7f00ff;
-    background: -webkit-linear-gradient(to right, #e100ff, #7f00ff);
-    background: linear-gradient(to right, #e100ff, #7f00ff);
+    background: rgb(238, 238, 238);
+    background: linear-gradient(90deg, rgba(238, 238, 238, 1) 0%, rgba(0, 255, 239, 1) 100%);
     font-family: var(--font-action);
-    color: #eee;
+    color: var(--color-black);
     border-radius: 0.5rem;
     border: none;
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
     cursor: pointer;
+    font-weight: bold;
 }
 
 .card-info button {
@@ -276,7 +277,9 @@ footer {
 
 .rodape h1 {
     font-size: 60px;
+
     color: var(--color-light-blue);
+
     padding-left: 90px;
     padding-top: 30px;
 }
@@ -284,18 +287,29 @@ footer {
 footer .rodape form div.title h2 {
     color: var(--color-white);
     padding-left: 90px;
-    margin-top: 30px;
     font-size: 1.9rem;
 }
 
 footer form {
-    margin: 50px;
+    margin: 50px 50px 0px 50px;
     padding: 45px;
+    height: 100%;
 }
 
 footer form .forms {
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
+    border-radius: 35px;
+    padding-top: 20px;
+}
+
+footer .rodape form .forms #form{
+    margin-bottom: 15px;
+}
+
+footer .rodape form .forms #form h3 {
+    margin-bottom: 10px;
 }
 
 .forms {
@@ -311,6 +325,8 @@ form .forms input {
     border: none;
     border-radius: 20px;
     width: 20rem;
+    text-align: center;
+    padding: 20px;
 }
 
 form .forms {
