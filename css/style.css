@@ -335,5 +335,10 @@ form .forms {
     justify-content: center;
 }
 
-/* PARTE MOBILE PARA CELULAR */
+form .forms button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
 
+/* PARTE MOBILE PARA CELULAR */
