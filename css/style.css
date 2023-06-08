@@ -147,6 +147,7 @@ header {
     -ms-transform: translateY(-8px);
     -o-transform: translateY(-8px);
     transform: translateY(-8px);
+    border-radius: 20px;
 }
 
 .images .image-two {
@@ -170,6 +171,7 @@ header {
     -ms-transform: translateY(-8px);
     -o-transform: translateY(-8px);
     transform: translateY(-8px);
+    border-radius: 20px;
 }
 
 .projetos {
@@ -327,6 +329,12 @@ form .forms input {
     width: 20rem;
     text-align: center;
     padding: 20px;
+    transition-duration: .7s;
+    box-shadow: 9px 9px 13px 0px;
+}
+
+form .forms input:hover {
+    border-radius: 10px;
 }
 
 form .forms {
@@ -336,9 +344,31 @@ form .forms {
 }
 
 form .forms button {
-    padding: 10px;
+    padding: 13px;
     border-radius: 20px;
     border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--color-black-bue);
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition-duration: .7s;
+}
+
+form .forms button:hover {
+    border-radius: 10px;
+    background-color: var(--color-black-bue-variation);
+}
+
+footer .credits {
+    background-color: var(--color-black-bue);
+    padding: 40px;
+}
+
+footer .credits h3 {
+    color: whitesmoke;
+    text-align: center;
 }
 
 /* PARTE MOBILE PARA CELULAR */
