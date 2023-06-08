@@ -373,3 +373,34 @@ footer .credits h3 {
 }
 
 /* PARTE MOBILE PARA CELULAR */
+
+@media (max-width: 350px) {
+
+    header .cabecalho {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .cabecalho h2 {
+        margin-top: 40px;
+    }
+
+    header .cabecalho ul.menu {
+        display: none;
+    }
+
+    header .apresentation {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+    }
+
+    header .apresentation img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
