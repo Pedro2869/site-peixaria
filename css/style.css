@@ -376,6 +376,10 @@ footer .credits h3 {
 
 @media (max-width: 390px) {
 
+    /* body {
+        overflow-x: hidden;
+    } */
+
     header .cabecalho {
         display: flex;
         flex-direction: column;
@@ -396,6 +400,13 @@ footer .credits h3 {
         text-align: center;
         position: relative;
         bottom: 80px;
+        gap: 10px;
+    }
+
+    header .apresentation .text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
 
     header .apresentation img {
@@ -416,18 +427,10 @@ footer .credits h3 {
         gap: 10px;
     }
 
-    main .about .images {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     main .about .images .image-one,
     main .about .images .image-two {
         width: 300px;
         height: 300px;
     }
-
-    
 }
 
