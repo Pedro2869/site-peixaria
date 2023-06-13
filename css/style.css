@@ -432,5 +432,15 @@ footer .credits h3 {
         width: 300px;
         height: 300px;
     }
+
+    .apresentation .text {
+        text-align: center;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+
+    .apresentation .text button {
+        margin-left: 10%;
+    }
 }
 
